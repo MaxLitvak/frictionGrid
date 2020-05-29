@@ -39,7 +39,7 @@ public class frictionGrid implements Runnable, MouseListener, MouseMotionListene
     public BOXES[][] allBoxes;
     public RESET reset;
     public int boxX, boxY;
-    public int bestResistance = 1000000000;
+    public int bestResistance = 10000;
     public resetColors RESETCOLORS;
     public int count;
     public boolean u = true;
