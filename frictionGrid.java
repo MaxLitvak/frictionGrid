@@ -120,7 +120,7 @@ public class frictionGrid implements Runnable, MouseListener, MouseMotionListene
             moveEverything();
 
             try {
-                Thread.sleep(5);
+                Thread.sleep(0);
             } catch (InterruptedException e) {
 
             }
